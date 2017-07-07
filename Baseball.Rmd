@@ -1,0 +1,64 @@
+---
+title: "Increase Batting Average for More Home Runs"
+author: "David Blum"
+date: "June 24, 2017"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+
+## Summary:
+
+Left-Handed batters showcase the highest batting statistics in Major League 
+Baseball.
+
+## Design:
+
+I combined both batting average and home runs into a single variable, 
+performance, to more easily compare batting statistics.
+
+Performance Equation:
+
+$$Performance = \sqrt{{batting.avg * home.runs}}$$
+
+The design of the equation is based on the idea that having a high batting average
+and high number of home runs are both desired factors for a great batter. 
+Multiplying both values equally distributes the importance of the two factors.
+Because two variables were being multipled the square root is included to reduce
+the range to make easier comparisons.
+
+Created the performance variable enabled me to create both a histogram and 
+boxplot. The histogram showcases close to normal distribtion with values ranging
+0-12 with a tail to the right. The boxplot was split by handedness and displays 
+left-handers have higher median values of performance.
+
+A text table was included to showcase the actual median values split by batter.
+
+--- Previous Charts ---
+
+Version 1 -
+
+The initial design was much more exploratory and didn't make any absolute 
+observations. The main chart was of batting.avg vs home.runs by player. Although
+everybody that reviewed really liked how they could explore the graph it wasn't
+easily understood and no easily absolute observations could be made.
+
+
+
+## Feedback:
+
+"I don't really know what's going on. What do the colors mean?" - Market 
+Research Analyst
+
+"You should bold the axes." - Art Professor
+
+"Oh! I like how you can view players." - Art Professor
+
+"I didn't know left-handed players were better batters" - IT Director
+
+
+## Chart
+
+[Lifetime Batting Statistics for Major League Baseball](https://public.tableau.com/profile/david2106#!/vizhome/Baseball_38/Story1)
+
