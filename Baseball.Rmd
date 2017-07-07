@@ -1,5 +1,5 @@
 ---
-title: "Increase Batting Average for More Home Runs"
+title: "Left-Handed Batters Have Higher Performance"
 author: "David Blum"
 date: "June 24, 2017"
 output:
@@ -13,7 +13,11 @@ output:
 Left-Handed batters showcase the highest batting statistics in Major League 
 Baseball.
 
-## Design:
+## Design: 
+
+### Final Chart: [Lifetime Batting Performance for MLB](https://public.tableau.com/profile/david2106#!/vizhome/Baseball_38/Story1)
+
+
 
 I combined both batting average and home runs into a single variable, 
 performance, to more easily compare batting statistics.
@@ -35,9 +39,9 @@ left-handers have higher median values of performance.
 
 A text table was included to showcase the actual median values split by batter.
 
---- Previous Charts ---
+### Previous Charts:
 
-Version 1 -
+[Version 1](https://raw.githubusercontent.com/dcblum/MLB-Batter-Statistics/master/Version1.png)
 
 The initial design was much more exploratory and didn't make any absolute 
 observations. The main chart was of batting.avg vs home.runs by player. Although
@@ -57,8 +61,4 @@ Research Analyst
 
 "I didn't know left-handed players were better batters" - IT Director
 
-
-## Chart
-
-[Lifetime Batting Statistics for Major League Baseball](https://public.tableau.com/profile/david2106#!/vizhome/Baseball_38/Story1)
 
