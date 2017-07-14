@@ -15,9 +15,9 @@ Baseball.
 
 ## Design: 
 
-### Final Chart: [Lifetime Batting Performance for MLB](https://public.tableau.com/profile/david2106#!/vizhome/Baseball_38/Story1)
+### Final Chart: 
 
-
+[Lifetime Batting Performance for MLB](https://public.tableau.com/profile/david2106#!/vizhome/Baseball_38/Story1)
 
 I combined both batting average and home runs into a single variable, 
 performance, to more easily compare batting statistics.
@@ -30,7 +30,8 @@ The design of the equation is based on the idea that having a high batting avera
 and high number of home runs are both desired factors for a great batter. 
 Multiplying both values equally distributes the importance of the two factors.
 Because two variables were being multipled the square root is included to reduce
-the range to make easier comparisons.
+the range to make easier comparisons. This is equivalent to the geometric 
+average of the two values.
 
 Created the performance variable enabled me to create both a histogram and 
 boxplot. The histogram showcases close to normal distribtion with values ranging
@@ -41,14 +42,21 @@ A text table was included to showcase the actual median values split by batter.
 
 ### Previous Charts:
 
-[Version 1](https://raw.githubusercontent.com/dcblum/MLB-Batter-Statistics/master/Version1.png)
+[Version 1](https://public.tableau.com/profile/david2106#!/vizhome/BaseballDraft1/Sheet7)
 
 The initial design was much more exploratory and didn't make any absolute 
-observations. The main chart was of batting.avg vs home.runs by player. Although
-everybody that reviewed really liked how they could explore the graph it wasn't
-easily understood and no easily absolute observations could be made.
+observations. The most confusing part is there was too much to look at on the 
+page which made it difficult for observers to understand what I was trying to 
+showcase. In the next version I blatantly mention left-handers showcase better
+performance.
 
+Both batting.avg and total.home.runs were condensed into one variable, 
+performance. This allowed me to compare 1 variable to handedness instead of 
+multiple variables (subsequently splitting data by color was no longer needed).
 
+The chart was split into multiple graphs: a histogram to show the distribution 
+of scores, box plots to compare handedness, and a table to see the actual 
+numbers. 
 
 ## Feedback:
 
@@ -60,5 +68,10 @@ Research Analyst
 "Oh! I like how you can view players." - Art Professor
 
 "I didn't know left-handed players were better batters" - IT Director
+
+
+## Resources
+
+N/A
 
 

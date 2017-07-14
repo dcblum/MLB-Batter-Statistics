@@ -130,19 +130,22 @@ $(document).ready(function () {
 </div>
 <div id="design" class="section level2">
 <h2>Design:</h2>
-<div id="final-chart-lifetime-batting-performance-for-mlb" class="section level3">
-<h3>Final Chart: <a href="https://public.tableau.com/profile/david2106#!/vizhome/Baseball_38/Story1">Lifetime Batting Performance for MLB</a></h3>
+<div id="final-chart" class="section level3">
+<h3>Final Chart:</h3>
+<p><a href="https://public.tableau.com/profile/david2106#!/vizhome/Baseball_38/Story1">Lifetime Batting Performance for MLB</a></p>
 <p>I combined both batting average and home runs into a single variable, performance, to more easily compare batting statistics.</p>
 <p>Performance Equation:</p>
 <p><span class="math display">\[Performance = \sqrt{{batting.avg * home.runs}}\]</span></p>
-<p>The design of the equation is based on the idea that having a high batting average and high number of home runs are both desired factors for a great batter. Multiplying both values equally distributes the importance of the two factors. Because two variables were being multipled the square root is included to reduce the range to make easier comparisons.</p>
+<p>The design of the equation is based on the idea that having a high batting average and high number of home runs are both desired factors for a great batter. Multiplying both values equally distributes the importance of the two factors. Because two variables were being multipled the square root is included to reduce the range to make easier comparisons. This is equivalent to the geometric average of the two values.</p>
 <p>Created the performance variable enabled me to create both a histogram and boxplot. The histogram showcases close to normal distribtion with values ranging 0-12 with a tail to the right. The boxplot was split by handedness and displays left-handers have higher median values of performance.</p>
 <p>A text table was included to showcase the actual median values split by batter.</p>
 </div>
 <div id="previous-charts" class="section level3">
 <h3>Previous Charts:</h3>
-<p><a href="https://raw.githubusercontent.com/dcblum/MLB-Batter-Statistics/master/Version1.png">Version 1</a></p>
-<p>The initial design was much more exploratory and didn’t make any absolute observations. The main chart was of batting.avg vs home.runs by player. Although everybody that reviewed really liked how they could explore the graph it wasn’t easily understood and no easily absolute observations could be made.</p>
+<p><a href="https://public.tableau.com/profile/david2106#!/vizhome/BaseballDraft1/Sheet7">Version 1</a></p>
+<p>The initial design was much more exploratory and didn’t make any absolute observations. The most confusing part is there was too much to look at on the page which made it difficult for observers to understand what I was trying to showcase. In the next version I blatantly mention left-handers showcase better performance.</p>
+<p>Both batting.avg and total.home.runs were condensed into one variable, performance. This allowed me to compare 1 variable to handedness instead of multiple variables (subsequently splitting data by color was no longer needed).</p>
+<p>The chart was split into multiple graphs: a histogram to show the distribution of scores, box plots to compare handedness, and a table to see the actual numbers.</p>
 </div>
 </div>
 <div id="feedback" class="section level2">
@@ -151,6 +154,10 @@ $(document).ready(function () {
 <p>“You should bold the axes.” - Art Professor</p>
 <p>“Oh! I like how you can view players.” - Art Professor</p>
 <p>“I didn’t know left-handed players were better batters” - IT Director</p>
+</div>
+<div id="resources" class="section level2">
+<h2>Resources</h2>
+<p>N/A</p>
 </div>
 
 
