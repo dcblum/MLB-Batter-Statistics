@@ -17,7 +17,22 @@ Baseball.
 
 ### Final Chart: 
 
-[Lifetime Batting Performance for MLB](https://public.tableau.com/profile/david2106#!/vizhome/Baseball_38/Story1)
+#### [Draft 3](https://public.tableau.com/profile/david2106#!/vizhome/BaseballDraft3/Story1)
+
+I was asked to not use tables, however I still wanted to showcase the population
+of batters by handedness; as such I decided to color the histogram graph and 
+remove batters with perfmance == 0 to more easily compare batter stance at each
+performance level. The population chart could also have been turned into a bar 
+chart but I didn't think that it would add ease of understanding for readers.
+
+Because the first chart was colored by handedness I thought it be appropiate to 
+color the box plot by handedness for consistency.
+
+I redid the story boxes to more blatantly state my observations on the data.
+
+### Previous Charts:
+
+#### [Draft 2](https://public.tableau.com/profile/david2106#!/vizhome/Baseball_38/Story1)
 
 I combined both batting average and home runs into a single variable, 
 performance, to more easily compare batting statistics.
@@ -40,23 +55,17 @@ left-handers have higher median values of performance.
 
 A text table was included to showcase the actual median values split by batter.
 
-### Previous Charts:
-
-[Version 1](https://public.tableau.com/profile/david2106#!/vizhome/BaseballDraft1/Sheet7)
+#### [Draft 1](https://public.tableau.com/profile/david2106#!/vizhome/BaseballDraft1/Sheet7)
 
 The initial design was much more exploratory and didn't make any absolute 
 observations. The most confusing part is there was too much to look at on the 
 page which made it difficult for observers to understand what I was trying to 
-showcase. In the next version I blatantly mention left-handers showcase better
-performance.
+showcase. 
 
-Both batting.avg and total.home.runs were condensed into one variable, 
-performance. This allowed me to compare 1 variable to handedness instead of 
-multiple variables (subsequently splitting data by color was no longer needed).
-
-The chart was split into multiple graphs: a histogram to show the distribution 
-of scores, box plots to compare handedness, and a table to see the actual 
-numbers. 
+The reason for creating 1 panel is because I believed that's what was being 
+asked for (which is why I just created a dashboard). Part of the confusion was
+being asked for a single sketch of my visualization which is impossible with a 
+story.
 
 ## Feedback:
 
@@ -68,6 +77,8 @@ Research Analyst
 "Oh! I like how you can view players." - Art Professor
 
 "I didn't know left-handed players were better batters" - IT Director
+
+"We could use bar charts instead of a table" - Udacity Reviewer
 
 
 ## Resources
